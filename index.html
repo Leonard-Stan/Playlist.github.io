@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist de Canciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 > <a href="index.html" class="titulo">DAWFY</a></h1>
+        <p>Adrian Leonard Stan</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#agregar">Agregar Canción</a></li>
+            <li> <a href="registro.html"> <button>Iniciar sesión / registro</button></a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenido a la Playlist</h2>
+
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Canción</th>
+                    <th>Artista</th>
+                    <th>Album</th>
+                    <th>Preview</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bling-Bang-Bang</td>
+                    <td>Creepy Nuts</td>
+                    <td> <img src="img/BlingBangBang.PNG"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/0kdqcbwei4MDWFEX5f33yG?si=bf581f2efd9b46d3" width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#blingbang"> <button> ver videoclip</button></a></td>
+                </tr>
+                <tr>
+                    <td>3D</td>
+                    <td>Jung Kook</td>
+                    <td> <img src="img/Jungkook_-_3D.png"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/6ehWdR7cGDXnT7aKEASJxE?si=0f95eca1db4e423a"  width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#3D"> <button> ver videoclip</button></a></td>
+                </tr>
+                <tr>
+                    <td>Yonaguni</td>
+                    <td>Bad Bunny</td>
+                    <td> <img src="img/Yonaguni.png"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/2JPLbjOn0wPCngEot2STUS?si=ee8d32251fdc424d"  width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#yonaguni"> <button> ver videoclip</button></a></td>
+                </tr>
+                <tr>
+                    <td>Bzrp session vol 57 </td>
+                    <td>Milo J, Bzrp</td>
+                    <td> <img src="img/MiloJ.jpg"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/1iLbUmb2b2btyAAcQ68a1p?si=cbd4df4c68d74b8f"  width="300px" height="100px"  allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#bzrp57"> <button> ver videoclip</button></a></td>
+                </tr>
+                <tr>
+                    <td>Mini Mini</td>
+                    <td>Punto 40</td>
+                    <td> <img src="img/MiniMIni.jpg"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/3KI4rfS7kRC58Dd4ToY7P3?si=02f106fd0c9e4b94"  width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#minimini"> <button> ver videoclip</button></a></td>
+                </tr>
+                <tr>
+                    <td>Hip</td>
+                    <td>Mamamoo</td>
+                    <td> <img src="img/Hip.png"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/24nK8tW7Pt3Inh2utttuoG?si=e57ed6277ed14da6" width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#hip"> <button> ver videoclip</button></a></td>
+                </tr>
+                <tr>
+                    <td>Courtesy Call</td>
+                    <td>Thousand Foot Krutch</td>
+                    <td> <img src="img/CourtesyCall.png"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/0AOmbw8AwDnwXhHC3OhdVB?si=846a68f87e614a13"  width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#courtesy"> <button> ver videoclip</button></a></td>
+                </tr>
+              
+                <tr>
+                    <td>Mission 15</td>
+                    <td>Luck Ra</td>
+                    <td> <img src="img/mission15.jpg"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/6CIMoDfTsvFVGhFi3v9Izn?si=1865b13280794744"  width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#teresa"> <button> ver videoclip</button></a></td>
+                </tr>
+                
+                <tr>
+                    <td>I'm Still Standin</td>
+                    <td>Elton John</td>
+                    <td> <img src="img/Elton_John_StillStanding.jpg"></td>
+                    <td><iframe src="https://open.spotify.com/embed/track/1jDJFeK9x3OZboIAHsY9k2?si=e9491a5be17a4e32" width="300px" height="100px" allow="encrypted-media"></iframe></td>
+                    <td> <a href="videoclips.html#elton"> <button> ver videoclip</button></a></td>
+                </tr>
+              
+            </tbody>
+        </table>
+    </section>
+
+    <section id="agregar">
+        <h2>Agregar Canción</h2>
+        <p>¿Quieres agregar una cancion?:</p>
+
+        <form action="#" method="post">
+            <label for="nombreCancion">Nombre de la Canción:</label>
+            <input type="text" id="nombreCancion" name="nombreCancion" required>
+
+            <label for="artista">Artista:</label>
+            <input type="text" id="artista" name="artista" required>
+
+            <label for="archivoCancion">Archivo de la Canción (mp3):</label>
+            <input type="file" id="archivoCancion" name="archivoCancion" accept=".mp3" required>
+
+            <input type="submit" value="Agregar Canción">
+        </form>
+    </section>
+
+    <section id="sobre">
+   
+        <p>Esta es una playlist con algunas canciones que me gustan, desgraciadamente, la mayoría tienen un copyright potente y no se podrán ver</p>
+    </section>
+
+    <footer>
+        <p >© 2024 Playlist de Adrian. Todos los derechos reservados.</p>
+        <a href="rss.xml"><img src="img/dibuix.png" height="50" width="50" style="position: absolute; margin-left: 42%;top: 25%;">  </a>   
+    </footer>
+
+</body>
+</html>
+
+
